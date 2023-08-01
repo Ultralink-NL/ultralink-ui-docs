@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkultralink_docs=self.webpackChunkultralink_docs||[]).push([[980],{3191:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/ultralink-ui-docs/blog/tags/hello","allTagsPath":"/ultralink-ui-docs/blog/tags","count":2}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkultralink_docs=self.webpackChunkultralink_docs||[]).push([[47],{4424:l=>{l.exports=JSON.parse('{"permalink":"/ultralink-ui-docs/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
