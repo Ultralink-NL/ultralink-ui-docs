@@ -14,7 +14,7 @@ const config = {
   url: 'https://ultralink-nl.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ultralink-ui-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
