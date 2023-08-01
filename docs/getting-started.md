@@ -23,12 +23,12 @@ Abre una terminal o línea de comandos en el directorio raíz de tu proyecto.
 Ejecuta el siguiente comando para instalar el paquete **"ultralink-ui"** desde el registro de npm:
 
 ```bash title="Bash"
-npm install nombre-del-paquete
+npm install ultralink-ui
 
 ```
 
 ### Uso
-Una vez instalado el paquete "Nombre del Paquete" en tu proyecto, agrega los archivos css que necesitaras, de preferencia en la raiz del proyecto para que todo el proyecto tengo acceso a las variables de estilos.
+Una vez instalado el paquete "ultralink-ui" en tu proyecto, agrega los archivos css que necesitaras, de preferencia en la raiz del proyecto para que todo el proyecto tengo acceso a las variables de estilos.
 
 ```css title="App.vue"
 import 'ultralink-ui/styles/ticketsColors.css'
