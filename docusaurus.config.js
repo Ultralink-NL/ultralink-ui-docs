@@ -68,7 +68,7 @@ const config = {
         title: 'Ultralink Docs',
         logo: {
           alt: 'My Site Logo',
-          src: '/static/img/favicon.svg',
+          src: 'img/favicon.svg',
         },
         items: [
           {
