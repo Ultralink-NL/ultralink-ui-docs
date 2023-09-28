@@ -15,7 +15,7 @@ El componente recibe 2 parametros:
 
 El componente quedaria de esta manera:
 ```js
-    <SearchInput @search-value="(event)=> search.value" @placeholder='Ingresa los datos a buscar' />
+    <SearchInput @search-value="(event)=> search.value = event" @placeholder='Ingresa los datos a buscar' />
 ```
 
 ## Caso de uso
@@ -23,7 +23,7 @@ El componente quedaria de esta manera:
 ```jsx title="Search Input"
 <template>
   <div>
-    <SearchInput @search-value="(event)=> search.value" @placeholder='Ingresa los datos a buscar' />
+    <SearchInput @search-value="(event)=> search.value = event" @placeholder='Ingresa los datos a buscar' />
   </div>
 </template>
 
