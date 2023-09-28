@@ -18,6 +18,15 @@ El componente quedaria de esta manera:
     <SearchInput @search-value="(event)=> search.value = event" @placeholder='Ingresa los datos a buscar' />
 ```
 
+## NOTA
+Es necesario proveer la variable reactiva search de la siguiente forma para el **buen funcionamiento** del componente.
+```jsx title="Use provide"
+import { provide } from 'vue'
+
+const search = ref('')
+provide('search',search)
+```
+
 ## Caso de uso
 
 ```jsx title="Search Input"
@@ -28,10 +37,11 @@ El componente quedaria de esta manera:
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed, provide } from 'vue'
 import SearchInput from '@/components/SearchInput.vue'
 
 const search = ref('')
+provide('search',search)
 
 const filteredSearch = computed(() => {
   let itemFiltered = customArray.value.filter(
